@@ -1,0 +1,13 @@
+  body {background-color: #7af59f}
+
+  div * p {color: #f57a7a }
+
+  div * li {color: #ffffff }
+
+  .titi li .sel { font-size : 5em; }
+  
+  #menu > P {color:rgb(219, 241, 50)}
+
+  h1 + h2 { margin-top: -10mm }
+  h1 .opener + h2 { margin-top: -100mm } 
+  h2 + p { margin-top:  0.8em }
