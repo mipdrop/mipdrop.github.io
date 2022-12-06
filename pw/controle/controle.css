@@ -44,20 +44,33 @@ p >.surligne {
     background-color: slateblue;
 }
 
+ul {
+    list-style-type: upper-roman; /* pour les puces de la dernière liste */
+}
+
+
 ol {
-    list-style-type: upper-roman;
+    list-style-type: upper-roman /* pour toutes les listes */
+}
+
+ol * li {
+    list-style-type: lower-roman; /* pour toutes les listes */
 }
 
 
+li  ol {
+    list-style-type: lower-alpha;/*c'est pour les lettres de la dernière liste*/
+} 
 
-ol * li{
-    list-style-type: lower-roman;
-}
-
-li > ol  {
+ol * li * ol * li {
     list-style-type: lower-alpha;
 }
 
-ul {
-    list-style-type: upper-roman;
-}
+
+
+
+
+
+
+
+
