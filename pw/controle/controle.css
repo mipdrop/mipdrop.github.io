@@ -1,0 +1,22 @@
+body {
+    color:black;
+    background-color:white;
+    background-image:url(C:/Users/yimou/mipdrop.github.io/pw/controle/cement.jpg);
+    }
+
+h1 {
+    text-align: center;
+    }
+h2 {
+    color: rgb(31, 79, 250);
+    background-color:grey
+    }
+  
+p {
+    text-align: justify;
+    text-indent: 16px;
+    }
+
+.surligne{
+    background-color:seashell
+}
