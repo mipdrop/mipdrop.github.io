@@ -20,3 +20,38 @@ p {
 .surligne{
     background-color:seashell
 }
+
+#cadre1 > .surligne{
+    color:seashell;   
+}
+
+#cadre1 * .surligne{
+    color:yellow;
+}
+#cadre2 * .surligne{
+    color:yellow;
+}
+
+#cadre2 > .surligne{
+    color:seashell;
+}
+
+p >.surligne {
+    color: yellow;
+}
+
+.surligne > p {
+    color: slateblue;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+ol * li  {
+list-style-type: lower-alpha;
+}
+
+ol * li * ol {
+    list-style-type: lower-roman;
+}
