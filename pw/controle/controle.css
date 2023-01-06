@@ -44,27 +44,32 @@ p >.surligne {
     background-color: slateblue;
 }
 
-ul {
-    list-style-type: upper-roman; /* pour les puces de la dernière liste */
-}
-
 
 ol {
-    list-style-type: upper-roman /* pour toutes les listes */
+    list-style-type: upper-roman; /* pour toutes les listes */
 }
 
 ol * li {
+    list-style-type: lower-alpha;
+}
+
+ol * li * ol * li * ol {
     list-style-type: lower-roman; /* pour toutes les listes */
 }
 
-
-li  ol {
-    list-style-type: lower-alpha;/*c'est pour les lettres de la dernière liste*/
+nav {
+    display: block;
+    font-family: arial, verdana, sans-serif;
+    font-size: 14pt;
+    text-decoration: overline
+    color rgb(31, 79, 250);
 } 
 
-ol * li * ol * li {
-    list-style-type: lower-alpha;
-}
+
+
+ 
+
+
 
 
 

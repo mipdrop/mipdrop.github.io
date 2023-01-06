@@ -9,4 +9,4 @@ def dichotomie (annuaire:list[tuple[str,int]], clef:str)-> int:
 			fin = milieu
 		else:
 			debut = milieu
-    return 0
+			return 0
