@@ -20,14 +20,6 @@ h1#top {
     font-size: 25pt;
 }
 
-h2,
-h3,
-#contenu h3,
-#contenu a,
-a {
-    /*Modification de la couleur des titres et liens*/
-    color: rgb(212, 78, 78);
-}
 
 h3 {
     color: brown;
@@ -68,9 +60,36 @@ input[type="checkbox"] {
     display: none;
 }
 
+
+
+label{
+    border:0ch;
+}
+
+label{
+    border : none;
+}
+
+
+
 /*avec cette balise, il n'y a que le OUI et le NON qui s'affiche sans que les cases ne soient visibles lorsqu'on les coche sur le HTML*/
 
+/* Je n'ai pas réussi à supprimer les bords des formulaires mais voici tout ce que j'ai essayé
 
-labell {
-   border : none;
+  fieldset {
+    border: none;
   }
+
+  #champ {
+    visibility: hidden;
+    position: absolute;
+    left: -9999px;
+  }
+
+  #champ {
+    opacity: 0;
+    position: absolute;
+  }
+  div{
+    border:none
+
